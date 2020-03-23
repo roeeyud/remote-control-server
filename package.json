@@ -20,5 +20,8 @@
   "homepage": "https://github.com/LiorRabinovich/remote-control-server#readme",
   "devDependencies": {
     "standard-version": "^7.1.0"
+  },
+  "dependencies": {
+    "ws": "^7.2.3"
   }
 }

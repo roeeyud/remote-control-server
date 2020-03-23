@@ -1,10 +1,13 @@
-const http = require('http');
-const port = process.env.PORT || 3000;
+const WebSocket = require('ws');
+const port = process.env.PORT || 5000;
 
-const server = http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.write('Hello wrold');
-    res.end();
+const wss = new WebSocket.Server({ port });
+
+wss.on('connection', function connection(ws) {
+    console.log('connected');
+    ws.on('message', function incoming(message) {
+        console.log(`received: ${message}`);
+    });
 });
 
-server.listen(port);
+console.log(`Listening to port: ${port}`);
