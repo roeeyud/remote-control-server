@@ -1,0 +1,24 @@
+{
+  "name": "remote-control-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiorRabinovich/remote-control-server.git"
+  },
+  "keywords": [],
+  "author": "Lior Rabinovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiorRabinovich/remote-control-server/issues"
+  },
+  "homepage": "https://github.com/LiorRabinovich/remote-control-server#readme",
+  "devDependencies": {
+    "standard-version": "^7.1.0"
+  }
+}
