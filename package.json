@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/LiorRabinovich/remote-control-server#readme",
   "devDependencies": {
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   },
   "dependencies": {
     "axios": "^0.19.2",
